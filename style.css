@@ -1,0 +1,32 @@
+html {
+    background-image: url("img/background.png");
+}
+
+body {
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 50px;
+    border: black solid 3px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+#ans1, #ans2, #input3, #ans4, #ans5, #ans7, #ans8, #ans9, #ans10 {
+    border-radius: 5px;
+}
+#input6, #input11 {
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+#correctAns1,  #correctAns2, #correctAns3, #correctAns4, #correctAns5, #correctAns6, #correctAns7, #correctAns8, #correctAns9, #correctAns10, #correctAns11 {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.img {
+    text-align: center;
+}
